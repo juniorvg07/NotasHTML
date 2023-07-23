@@ -1,0 +1,45 @@
+body {
+    background-color: aqua;
+}
+#header {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+main{
+    width: 900px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+}
+#uno article{
+    width: 50%;
+    float: left;
+}
+
+#uno article img{
+    height: 150px;
+}
+
+#uno article .lado{
+    padding: 10px;
+}
+#uno article .profesor {
+    position: absolute;
+    left: 33%;
+}
+#uno article .estudiante {
+    position: absolute;
+    left: 55%;
+}
+
+button {
+    font-size: 20px;
+    background-color: blueviolet;
+    border: blueviolet;
+    color:white;
+    border-radius: 20px;
+    padding: 0.5%;
+    cursor: pointer;
+}
